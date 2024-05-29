@@ -34,19 +34,19 @@ public class RunController {
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("")
     void createRun(@Valid @RequestBody Run run){
-        runRepository.createRun(run);
+        runRepository.create(run);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping("/{id}")
     void updateRun(@Valid @RequestBody Run run, @PathVariable Integer id){
-        runRepository.updateRun(run,id);
+        runRepository.update(run,id);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{id}")
     void deleteRun(@PathVariable Integer id){
-        runRepository.deleteRun((id));
+        runRepository.delete((id));
     }
 
 }
