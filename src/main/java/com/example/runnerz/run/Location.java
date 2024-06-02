@@ -1,4 +1,4 @@
-package com.example.runnerz;
+package com.example.runnerz.run;
 
 public enum Location {
     INDOORS, OUTDOORS

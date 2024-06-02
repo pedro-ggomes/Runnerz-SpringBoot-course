@@ -1,4 +1,4 @@
-package com.example.runnerz;
+package com.example.runnerz.run;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
