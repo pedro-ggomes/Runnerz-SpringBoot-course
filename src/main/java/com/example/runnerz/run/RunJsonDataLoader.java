@@ -1,4 +1,4 @@
-package com.example.runnerz;
+package com.example.runnerz.run;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
